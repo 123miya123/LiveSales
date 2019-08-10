@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5,p,a,li,span{font-family: "Helvetica Neue",Helvetica,Arial,sans-se
 /* 轮播图结束 */
 /*banner图*/
 .banner{position: relative;}
-.banner .button{position: absolute;top:320px;left:250px;/*border: 1px solid red;*/}
+.banner .button{position: absolute;top:65%;left:20%;/*border: 1px solid red;*/}
 .banner .button button{background-color: #fd4b11;border-color:#fd4b11;color: #ffffff;font-size: 12px;width: 130px;height: 40px;border-radius: 6px;}
 
 /* 技术支持开始（第一页） */
