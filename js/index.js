@@ -2,8 +2,8 @@
  * Created by 10243 on 2019/8/9.
  */
 $(function(){
-    $("#dowm1_img").click(function(){
-        $(this).css("display","none");
+    $("#bu_1").click(function(){
+        $("#dowm1_img").css("display","none");
         $("#up1_img").css("display","block");
         $("#dowm2_img").css("display","none");
         $("#up2_img").css("display","block");
@@ -14,8 +14,8 @@ $(function(){
         $(".img3").css("display","none");
     })
 
-    $("#up2_img").click(function(){
-        $(this).css("display","none");
+    $("#bu_2").click(function(){
+        $("#up2_img").css("display","none");
         $("#dowm2_img").css("display","block");
         $("#dowm1_img").css("display","block");
         $("#up1_img").css("display","none");
@@ -26,8 +26,8 @@ $(function(){
         $(".img3").css("display","none");
     })
 
-    $("#up3_img").click(function(){
-        $(this).css("display","none");
+    $("#bu_3").click(function(){
+        $("#up3_img").css("display","none");
         $("#dowm3_img").css("display","block");
         $("#dowm1_img").css("display","block");
         $("#up1_img").css("display","none");

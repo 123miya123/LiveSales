@@ -3,13 +3,13 @@
 h1,h2,h3,h4,h5,p,a,li,span{font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
 
 /*title设置*/
-.title_img img{width: 100%;}
+.title_img img{width: 100%; draggable:false;}
 /* 导航条设置开始 */
 .navbar .container .container-fluid .collapse .nav li{font-size: 15px;}
 .navbar .container .container-fluid .collapse .nav>li>a{position: relative;display: block;padding: 10px 20px;color: #ffffff;}
 .navbar .container .container-fluid .collapse .nav li a:hover{color: #000000;}
 .navbar .container .container-fluid .collapse .nav .dropdown{background-color: #f8f8f8;}
-.navbar .container .container-fluid .navbar-header .logo img{width: 60px;height: 60px;margin-top: -14px;}
+.navbar .container .container-fluid .navbar-header .logo img{width: 60px;height: 60px;margin-top: -14px;draggable:false;}
 .navbar .container .container-fluid .navbar-header .logo span{float: right;padding: 7px 0 0 5px;}
 @media (min-width: 768px){.navbar .container .container-fluid .collapse .nav>li>a {padding-top: 22px;padding-bottom: 22px;}}
 /* 导航条设置结束 */
@@ -37,18 +37,18 @@ h1,h2,h3,h4,h5,p,a,li,span{font-family: "Helvetica Neue",Helvetica,Arial,sans-se
 /* 轮播图结束 */
 /*banner图*/
 .banner{position: relative;}
-.banner img{width: 100%;}
+.banner img{width: 100%;draggable:false;}
 .banner .button{position: absolute;top:65%;left:20%;/*border: 1px solid red;*/}
-.banner .button button{background-color: #fd4b11;border-color:#fd4b11;color: #ffffff;font-size: 12px;width: 130px;height: 40px;border-radius: 6px;}
+.banner .button button{background-color: #fd4b11;border-color:#fd4b11;color: #ffffff;outline: none;font-size: 12px;width: 130px;height: 40px;border-radius: 6px;}
 
 /* 技术支持开始（第一页） */
-.zhichi_fuxian{opacity: 0;margin-top: 80px;background: url("../images/index/bg01.png");background-size: cover;background-repeat: no-repeat;}
+.zhichi_fuxian{/*opacity: 0;*/margin-top: 80px;background: url("../images/index/bg01.png");background-size: cover;background-repeat: no-repeat;}
 .zhichi_fuxian .title1{text-align: center;color: #333333;font-size: 31px;}
 /*.zhichi_fuxian #zhichi{margin: 5px 0 0 0;background-color: white;}*/
 .zhichi_fuxian .zhichi .container .row .col-md-4{padding:0px;}
 .zhichi_fuxian .zhichi .container .row .col-md-4 .zhichi-container{width: 100%;height:550px;margin-top: 25px;/*border: 1px solid red;*/}
 .zhichi_fuxian .zhichi .container .row .col-md-4 .zhichi-container .zhichi_img{width:95%;margin: auto;position: relative;}
-.zhichi_fuxian .zhichi .container .row .col-md-4 .zhichi-container .zhichi_img img{width: 100%;text-align: center;}
+.zhichi_fuxian .zhichi .container .row .col-md-4 .zhichi-container .zhichi_img img{width: 100%;text-align: center;draggable:false;}
 .zhichi_fuxian .zhichi .container .row .col-md-4 .zhichi-container .zhichi-text{width:85%;margin: 0 auto;margin-top: 25px;/*border: 1px solid red;*/}/*文字说明*/
 .zhichi_fuxian .zhichi .container .row .col-md-4 .zhichi-container .zhichi-text h3{color: #333333;font-size: 20px;text-align: center;}
 .zhichi_fuxian .zhichi .container .row .col-md-4 .zhichi-container .zhichi-text p{text-align: center;color: #969696;font-size: 14px;}
@@ -60,9 +60,9 @@ h1,h2,h3,h4,h5,p,a,li,span{font-family: "Helvetica Neue",Helvetica,Arial,sans-se
 .product .container{margin-top: 45px;}
 /*.product .container .col-md-7 {border:1px solid red;;}*/
 .product .container .col-md-7 .pd_content{width: 100%}
-.product .container .col-md-7 .pd_content img{width: 100%;}
+.product .container .col-md-7 .pd_content img{width: 100%;draggable:false;}
 .product .pd_text .pd_t1{position: relative;margin-top:20px;}
-.product .pd_text .pd_t1 img{width:29px;}
+.product .pd_text .pd_t1 img{width:29px;draggable:false;}
 .product .pd_text .pd_t1 h4{position: absolute;top:-4px;left:37px;}
 .product .pd_text .pd_t1 p{margin-left:37px;color: #969696;font-size: 14px;}
 .product .container .col-md-5 .pd_text{width: 100%;/*border: 1px solid red;*/}
@@ -81,7 +81,7 @@ h1,h2,h3,h4,h5,p,a,li,span{font-family: "Helvetica Neue",Helvetica,Arial,sans-se
 .dibu_fuxian .zixun-bg{height:500px;background: url("../images/index/bg02.png");background-size: cover;background-repeat: no-repeat;border:1px solid rgba(255, 255, 255, 0);}
 .dibu_fuxian .zixun-bg .zixun{width: 100%;height:200px;}
 .dibu_fuxian .zixun-bg .zixun p{font-size:31px; color:#333333;margin-top:150px;}
-.dibu_fuxian .zixun-bg .zixun button{font-size: 12px;margin-top: 150px;background-color: #fd4b11;border-color: #fd4b11;color: #ffffff;width: 130px;height: 40px;border-radius: 6px; }
+.dibu_fuxian .zixun-bg .zixun button{font-size: 12px;margin-top: 150px;background-color: #fd4b11;border-color: #fd4b11;outline: none;color: #ffffff;width: 130px;height: 40px;border-radius: 6px; }
 
 /* 底部特效opactiy设置 */
 /*.dibu_fuxian{opacity: 0;}*/
