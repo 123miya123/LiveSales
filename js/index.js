@@ -1,0 +1,40 @@
+/**
+ * Created by 10243 on 2019/8/9.
+ */
+$(function(){
+    $("#dowm1_img").click(function(){
+        $(this).css("display","none");
+        $("#up1_img").css("display","block");
+        $("#dowm2_img").css("display","none");
+        $("#up2_img").css("display","block");
+        $("#dowm3_img").css("display","none");
+        $("#up3_img").css("display","block");
+        $(".img1").css("display","block");
+        $(".img2").css("display","none");
+        $(".img3").css("display","none");
+    })
+
+    $("#up2_img").click(function(){
+        $(this).css("display","none");
+        $("#dowm2_img").css("display","block");
+        $("#dowm1_img").css("display","block");
+        $("#up1_img").css("display","none");
+        $("#dowm3_img").css("display","none");
+        $("#up3_img").css("display","block");
+        $(".img2").css("display","block");
+        $(".img1").css("display","none");
+        $(".img3").css("display","none");
+    })
+
+    $("#up3_img").click(function(){
+        $(this).css("display","none");
+        $("#dowm3_img").css("display","block");
+        $("#dowm1_img").css("display","block");
+        $("#up1_img").css("display","none");
+        $("#dowm2_img").css("display","none");
+        $("#up2_img").css("display","block");
+        $(".img3").css("display","block");
+        $(".img1").css("display","none");
+        $(".img2").css("display","none");
+    })
+})

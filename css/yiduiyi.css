@@ -1,0 +1,24 @@
+/*约聊一对一*/
+.yueliao{background: url("../images/yiduiyi/pkbg2.jpg");background-repeat: no-repeat;background-size: cover;height: 750px;position: relative;}
+.yueliao .container .row .col-md-8 h1{font-size: 55px;color: #f7f7f7;font-weight: 900;margin: 200px 0 20px 0;}
+.yueliao .container .row .col-md-8 p{font-size: 30px;color: #f7f7f7;}
+.yueliao .container .row .col-md-8 button{padding: 10px 30px;font-size: 25px;margin-top: 150px;}
+.yueliao .container .row .col-md-3 img{width: 95%;position: absolute;top: 200px;}
+
+/*青芒直播一对一PK介绍*/
+.pk_produce{height: auto;margin-top: 50px;}
+.pk_produce .container .row .col-md-6 h3{margin-top: 20px;}
+.pk_produce .container .row .col-md-6 p{text-align: justify;}
+.pk_produce .container .row .pk_produce_text span{float: left;clear: both;width: 35px;height: 35px;border-radius: 50%;background-color: #f6a7b9;padding: 11px 0 0 9px;font-size: 16px;color: #FFFFFF;}
+.pk_produce .container .row .pk_produce_right p{padding: 10px 0 0 5px;margin-left: 5px;}
+
+/*案例赏析*/
+.anlishangxi{margin-top: 50px;background-color: #e1e1e1;height: auto;}
+.anlishangxi video{width: 100%;height: 300px;margin: 20px 0 15px 0/*加滤镜*//*-webkit-filter: grayscale(100%);*//*filter:grayscale(100%);*//*margin-left: -200px;*/}
+.anlishangxi .pk_produce_text h3{margin-top: 20px;}
+
+/*咨询我们*/
+.zixun-bg{background: url("../images/yiduiyi/pkbg.jpg");background-size: cover;background-repeat: no-repeat;}
+.zixun-bg .zixun{background: rgba(11,1,1,0.4);width: 100%;height:200px;}
+.zixun-bg .zixun p{font-size: 20px; color: #FFFFFF;padding: 20px 0 0 0}
+.zixun-bg .zixun button{font-size: 20px;margin-top: 50px;}

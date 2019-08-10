@@ -1,0 +1,38 @@
+.head_img{width: 100%;} /*头部banner图*/
+
+/*联系我们*/
+.tab-content .row{margin-top: 20px;}
+.main{height: 80px;font-size:20px;margin-top: 50px;}
+.main li{margin-left: 30px;background-color: #929999;border-radius:15px;
+ }
+.main li+li{margin-left: 60px;}
+.tab-content{margin-top: 30px}
+.tab-content #home .lx_left{height:500px;/*border: 1px solid beige;*/}
+.tab-content #home .lx_left .address_info .address_left .text1,.address_info .address_left .text3,.address_info .address_left .text5,.address_info .address_left .text7{font-family: SourceHanSansCN-Normal;font-size: 18px;font-weight: normal;font-stretch: normal;line-height: 45px; letter-spacing: 0px; color: #999999;}
+.tab-content #home .lx_left .address_info .address_left .text2,.address_info .address_left .text4,.address_info .address_left .text6{font-family: SourceHanSansCN-Regular;font-size: 21px;font-weight: normal;font-stretch: normal;line-height:30px;letter-spacing: 0px; color: #333333;}
+/*客服热线*/
+.tab-content #home .lx_left .address_info .address_left .cs_phone,.cs_QQ{position:absolute;bottom:100px;border-radius: 10px 10px 10px 10px;border:1px solid  #eaebec;width:200px;height:63px;text-align: center;}
+.tab-content #home .lx_left .address_info .address_left .cs_QQ{left:240px;}
+.tab-content #home .lx_left .address_info .address_left .cs_phone span,.cs_QQ span{text-align: center;}
+.tab-content #home .map_img img{width: 100%;height:100%}
+
+/*公司简介*/
+.tab-content #profile .address{height: 280px;}
+.tab-content #profile .address img{width: 100%;height: 100%;}
+/*边框*/
+fieldset {padding: .35em .625em .75em;margin: 0 2px;border: 1px solid silver;margin-top:40px;}
+legend {padding: .5em;border: 0;width:auto;margin: 0 auto;font-size: 35px;}
+.tab-content #profile .info{/*border: 1px solid #383a3f;*/height: 280px;margin-top:0px;}
+
+/*企业使命*/
+.tab-content #profile .mission{height: 280px;margin-top:0px;}
+.tab-content #profile .mission img{width: 100%;height: 100%;}
+
+/*企业资质*/
+.tab-content #profile .zizhi{height:400px;margin-top: 0px;}
+.tab-content #profile .zizhi img{width: 90%;height: 100%;}
+
+/*风采展示*/
+.tab-content #message .ms_img{height: 280px;margin-top:0px;}
+.tab-content #message .ms_img img{width: 100%;height: 100%;}
+

@@ -1,0 +1,40 @@
+/*导航栏*/
+.navbar-fixed-top{height: 63px;}
+.navbar-nav li{font-size: 18px;}
+.nav>li>a {position: relative; display: block; padding: 10px 20px;}
+.navbar-nav .dropdown{background-color: rgba(224, 166, 186, 0)  }/*导航栏直播类型背景颜色*/
+.head_right ul{position:absolute;right:25px;}
+.navbar-default .navbar-nav>li>a{font-size: 17px;font-family: Arial,Verdana,Sans-serif;color: #ffffff;font-weight: 800;}
+
+
+
+
+.logo img{height:90%;margin-top:-10px;position:absolute;left:35px;}
+.logo span{padding: 7px 0 0 5px;position: absolute;margin-left: 60px;color: #ffffff;font-weight: 700;left: 35px;}
+@media (min-width: 768px){
+    .navbar-nav>li>a {
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+}
+li{list-style: none;margin: 0;padding: 0;}
+a:link,a:visited{color: #ffffff;text-decoration: none;}
+
+
+/*底部*/
+.footer{margin-top: 50px;/*border: 1px solid red;*/}
+.footer .container .row .footer_d div{height:250px;margin-top: 38px;/*border: 1px solid red;*/}
+.footer .container .row .col-md-6 div{width:250px;height: 100px;margin-top:35px;}
+.footer .container .row .col-md-6 div img{width:70%;height: 70%;}
+.footer .container .row .col-md-6 .text{color:#969696;;font-family: SourceHanSansCN-Normal;font-size:14px;}
+.footer  .container .row .footer_d div h4{color: #333333;font-family: SourceHanSansCN-Normal;font-size:24px;}
+.footer  .container .row .footer_d div p{color: #969696;font-family: SourceHanSansCN-Normal;font-size: 14px;}
+.footer  .container .row .footer_d div p span{color: #969696;font-family: SourceHanSansCN-Normal;font-size:15px;}
+.footer  .container .row .footer_d div .footer_text{margin-top: 29px;}
+
+.footer  .container .row .col-md-2 div p{text-align:left;color: #333333;font-size:20px;}
+.footer  .container .row .col-md-2 img{width: 120px;height: 120px;}
+
+.panel-footer{background-color:  #f1f1f1;}
+.panel-footer P{color:#969696;font-size: 13px;}
+.panel-footer .panel_img img{margin-right:25px;}

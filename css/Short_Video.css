@@ -1,0 +1,42 @@
+/*美颜介绍*/
+.meiyanjieshao{background: url("../images/Short_Video/short_video_bg3.jpg");background-repeat: no-repeat;background-size: cover;background-attachment: fixed;}
+.meiyanjieshao .container .row{margin-top: 100px;}
+.meiyanjieshao .container .row .col-md-offset-2{margin-top: 100px;}
+.meiyanjieshao .container .row .col-md-6 h1{line-height: 60px;font-size: 45px;color: #FFFFFF;}
+.meiyanjieshao .container .row .col-md-6 h4{line-height: 60px;font-size: 35px;color: #FFFFFF;}
+.meiyanjieshao .container .row .col-md-6 p{line-height: 40px;font-size: 20px;color: #FFFFFF;}
+
+/*系统特性*/
+.xitongtexing .container .row h1{padding: 50px 0 0 0;}
+.xitongtexing .container .row p{padding: 20px 0 30px 0;}
+
+/*售后支持*/
+.shouhouzhichi{background-color: #fdf1f2;}
+.shouhouzhichi .container .row .zhichi .col-md-3{margin-top: 30px;}
+.shouhouzhichi .container .row .zhichi .col-md-8 .row .col-md-3 p{font-size: 12px;line-height: 40px;}
+.shouhouzhichi .container .row h1{padding: 50px 0 0 0;}
+.shouhouzhichi .container .row p{padding: 20px 0 30px 0;}
+
+/*短视频基本功能*/
+.jibenneirong{background-color: #FFFFFF;}
+.jibenneirong .container .row h1{padding: 50px 0 0 0;}
+.jibenneirong .container .row p{padding: 20px 0 30px 0;}
+.jibenneirong .container .row .col-md-2 .jibenneirong_container{background-color: #FFFFFF;width: 100%;}
+.jibenneirong .container .row .col-md-2 .jibenneirong_container span{margin: 15px 0 5px 30%;font-size: 70px;color: #f2d8e7;}
+.jibenneirong .container .row .col-md-2 .jibenneirong_container p{font-size: 20px;}
+
+    /*覆盖图*/
+*{margin:0;padding:0;}
+.in_ct{width:1110px;height:auto;overflow:hidden;margin:0 auto;background:#fff;}
+.in_ct1{width:1110px;height:auto;overflow:hidden;}
+.box li{ width:272px;height:514px;margin-left:4px;float:left;overflow:hidden;position:relative;}
+.toll_img{ width:272px;height:514px;}
+.toll_info{ height:514px;vertical-align:middle;display:table-cell;}
+.box li .box1{ color:#666;text-decoration:none;position:absolute;top:0;left:0;cursor:pointer;}
+
+/*咨询我们*/
+.zixun-bg{background: url("../images/yiduiyi/pkbg.jpg");background-size: cover;background-repeat: no-repeat;}
+.zixun-bg .zixun{background: rgba(11,1,1,0.4);width: 100%;height:200px;}
+.zixun-bg .zixun p{font-size: 20px; color: #FFFFFF;padding: 20px 0 0 0}
+.zixun-bg .zixun button{font-size: 20px;margin-top: 50px;}
+

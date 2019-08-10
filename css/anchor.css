@@ -1,0 +1,20 @@
+/*直播系统介绍*/
+.main1{margin-top: 45px;}
+.main1 .row .text1 legend{font-family: SourceHanSansCN-Normal;font-size: 35px;text-align: center; }
+.main1 .row .text2 p{font-family: SourceHanSansCN-Normal;font-size:17px;text-align: center;color: #929999}
+.main1 .row .text3 img{width: 100%;margin-top: 35px;}
+
+/*蒙层图*/
+.main2{margin-top: 100px;}
+.main2 .row div{height:500px;padding: 0px;position: relative;}
+.main2 .row div img{width: 100%;height:100%;padding: 0px;position: relative;}
+/*设置蒙层*/
+.main2 .row .col-md-3 .info {position:absolute;top: 0;left: 0;width:100%; height: 100%;background: rgba(135, 125, 147, 0.6); color: #ffffff; opacity: 0;}
+.main2 .row .col-md-3 .info p{text-align: center;width: 60%;position: absolute;bottom:80px;left: 20%;}/*介绍*/
+.main2 .row .col-md-3 .info h2{text-align: center;}
+.main2 .row .col-md-3:hover .info{opacity: 1;}
+/*图标及标题*/
+.main2 .row div .tubiao{width:100%;height: 100%;position: absolute;top:5px;left: -6px;margin-top: 40px;}
+.main2 .row div .tubiao img{width:80px;height:80px;position: absolute;left: 38%;}
+.main2 .row div .tubiao h2{color: white;font-size: 35px;text-align: center;margin-top: 100px;}
+
