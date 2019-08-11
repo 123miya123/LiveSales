@@ -1,3 +1,4 @@
+body{width: 100%;}
 /*banner图*/
 .banner{position: relative;}
 .banner img{width: 100%;draggable:false;}
@@ -5,16 +6,17 @@
 .banner .button button{background-color: #ffffff;border-color:#ffffff;color: #5316df;outline: none;font-size: 12px;width: 140px;height: 42px;border-radius:30px 30px 29px 29px;;}
 
 /*直播系统介绍*/
-.info{position:relative;margin-top: 0px;background: url("../images/index/bg01.png");background-size: cover;background-repeat: no-repeat;}
-.info .row{margin-top:150px;/*border: 1px solid red;*/height: 360px;}
-.info .row_1{height: 500px;}
-.info .row .col-md-6{padding:0px;}
+.info{position:relative;margin-top: 0px;}
+.info .row{margin-top:100px;/*border: 1px solid red;*/height: 360px;}
+.info .row_1{height: 550px;}
+.info .row .col-md-6{position:relative;padding:0px;}
 .info .info_text{width: 90%;/*border: 1px solid red;*/}
-.info .col-md-6{position: relative;}
+.info .col_top{margin-top: -50px;}
+.bg_img{background: url("../images/anchor/shan.png")center 27%;;background-size:100%;background-repeat: no-repeat;}
 .info .info_right{position: absolute;right: 0px;}
 .info .info_text h3{color: #3c3c3c;font-size: 32px;font-family: PingFangSC-Medium;text-align: center;}
 .info .info_text p{color: #929292;font-size: 22px;font-family: PingFangSC-Medium;margin-top: 50px;}
-.info .info_img{/*border: 1px solid red;*/width: 100%;position: relative;}
+.info .info_img{/*border: 1px solid red;*/width: 95%;}
 .info .info_img img{width: 100%;draggable:false;}
 .info .info_img .info_lcon{width:27%;position: absolute;top:5px;left:35%;top:25%;}
 .footer{margin-top:90px;}
