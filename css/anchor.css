@@ -16,7 +16,68 @@ body{width: 100%;}
 .info .info_right{position: absolute;right: 0px;}
 .info .info_text h3{color: #3c3c3c;font-size: 32px;font-family: PingFangSC-Medium;text-align: center;}
 .info .info_text p{color: #929292;font-size: 22px;font-family: PingFangSC-Medium;margin-top: 50px;}
-.info .info_img{/*border: 1px solid red;*/width: 95%;}
+.info .info_img{/*border: 1px solid red;*/width:80%;}
 .info .info_img img{width: 100%;draggable:false;}
 .info .info_img .info_lcon{width:27%;position: absolute;top:5px;left:35%;top:25%;}
 .footer{margin-top:90px;}
+
+@media screen and (min-width:800px) and (max-width:1000px) {
+    .info .row{margin-top:0px;height: 360px;position: relative;}
+    .info .row_1{height:850px;}
+    .info .row_2,.info .row_3,.info .row_4,.info .row_5{height:450px;}
+    .info .info_img1{width: 70%;position: absolute;right: 0px;}
+    .info .row_3 .info_img,.info .row_5 .info_img{position: absolute;right: 0px;}
+    .info .info_text{width:50%;/*border: 1px solid red;*/}
+    .info .info_text h3{color: #3c3c3c;font-size: 25px;font-family: PingFangSC-Medium;text-align: center;}
+    .info .info_text p{color: #929292;font-size: 15px;font-family: PingFangSC-Medium;margin-top: 50px;}
+    .info .info_img{width:45%;}
+    .info .info_img img{width: 100%;draggable:false;}
+    .info .info_img .info_lcon{width:12%;position: absolute;top:5px;left:15%;top:25%;}
+    .info .row_3 .info_img .info_lcon,.info .row_5 .info_img .info_lcon{width:25%;position: absolute;top:5px;left:35%;top:25%;}
+    /*banner图按钮*/
+    .banner .button{position: absolute;top:64%;left:42%;/*border: 1px solid red;*/}
+    .banner .button button{background-color: #ffffff;border-color:#ffffff;color: #5316df;outline: none;font-size: 12px;width: 90px;height: 31px;border-radius:30px 30px 29px 29px;;}
+
+}
+
+@media screen and (min-width: 768px) and (max-width:991px ){
+    .info{position:relative;margin-top: 0px;}
+    .info .row{margin-top:0px;/*border: 1px solid #240000;*/height: 360px;}
+    .info .row_1{height:850px;}
+    .info .row_2,.info .row_3,.info .row_4,.info .row_5{height:450px;}
+    .info .row .col-md-6{position:relative;padding:0px;}
+    .info .info_text{width: 90%;/*border: 1px solid red;*/}
+    .bg_img{background: url("../images/anchor/shan.png")center 27%;;background-size:100%;background-repeat: no-repeat;}
+    .info .info_right{position: absolute;}
+    .info .info_text h3{color: #3c3c3c;font-size: 25px;font-family: PingFangSC-Medium;text-align: center;}
+    .info .info_text p{color: #929292;font-size: 15px;font-family: PingFangSC-Medium;margin-top: 50px;}
+    .info .info_img{width: 56%;}
+    .info .info_img img{width: 100%;draggable:false;}
+    .info .info_img .info_lcon{width:27%;position: absolute;top:5px;left:35%;top:25%;}
+    .info .row_2 .info_img .info_lcon,.info .row_4 .info_img .info_lcon{width:15%;position: absolute;top:5px;left:22%;top:25%;}
+    /*banner图按钮*/
+    .banner .button{position: absolute;top:64%;left:42%;/*border: 1px solid red;*/}
+    .banner .button button{background-color: #ffffff;border-color:#ffffff;color: #5316df;outline: none;font-size: 12px;width: 90px;height: 31px;border-radius:30px 30px 29px 29px;;}
+
+}
+
+@media only screen and (max-width:767px){
+    .info{position:relative;margin-top: 0px;}
+    .info .row{margin-top:0px;/*border: 1px solid red;*/height: 360px;}
+    .info .row_1{height:850px;}
+    .info .row_2,.info .row_3,.info .row_4,.info .row_5{height:450px;}
+    .info .info_img1{width:28%;position: absolute;left: 0px;}
+    .info .row .col-md-6{position:relative;padding:0px;}
+    .info .info_text{width:100%;/*border: 1px solid red;*/}
+    .bg_img{background: url("../images/anchor/shan.png")center 27%;;background-size:100%;background-repeat: no-repeat;}
+    .info .info_right{position: absolute;}
+    .info .info_text h3{color: #3c3c3c;font-size: 25px;font-family: PingFangSC-Medium;text-align: center;}
+    .info .info_text p{color: #929292;font-size: 15px;font-family: PingFangSC-Medium;margin-top: 50px;}
+    .info .info_img{width: 60%;}
+    .info .info_img img{width: 100%;draggable:false;}
+    .info .info_img .info_lcon{width:27%;position: absolute;top:5px;left:35%;top:25%;}
+/*banner图按钮*/
+    .banner .button{position: absolute;top:64%;left:42%;/*border: 1px solid red;*/}
+    .banner .button button{background-color: #ffffff;border-color:#ffffff;color: #5316df;outline: none;font-size: 12px;width: 90px;height: 31px;border-radius:30px 30px 29px 29px;;}
+
+}
