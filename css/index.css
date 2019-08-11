@@ -9,7 +9,7 @@ h1,h2,h3,h4,h5,p,a,li,span{font-family: "Helvetica Neue",Helvetica,Arial,sans-se
 .navbar .container .container-fluid .collapse .nav>li>a{position: relative;display: block;padding: 10px 20px;color: #ffffff;}
 .navbar .container .container-fluid .collapse .nav li a:hover{color: #000000;}
 .navbar .container .container-fluid .collapse .nav .dropdown{background-color: #f8f8f8;}
-.navbar .container .container-fluid .navbar-header .logo img{width: 60px;height: 60px;margin-top: -14px;draggable:false;}
+/*.navbar .container .container-fluid .navbar-header .logo img{width: 60px;height: 60px;margin-top: -14px;draggable:false;}*/
 .navbar .container .container-fluid .navbar-header .logo span{float: right;padding: 7px 0 0 5px;}
 @media (min-width: 768px){.navbar .container .container-fluid .collapse .nav>li>a {padding-top: 22px;padding-bottom: 22px;}}
 /* 导航条设置结束 */

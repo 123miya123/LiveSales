@@ -18,7 +18,7 @@ body{width: 100%;}
 .info .info_text p{color: #929292;font-size: 22px;font-family: PingFangSC-Medium;margin-top: 50px;}
 .info .info_img{/*border: 1px solid red;*/width:80%;}
 .info .info_img img{width: 100%;draggable:false;}
-.info .info_img .info_lcon{width:27%;position: absolute;top:5px;left:35%;top:25%;}
+.info .info_img .info_lcon{width:27%;position: absolute;top:5px;left:30%;top:23%;}
 .footer{margin-top:90px;}
 
 @media screen and (min-width:800px) and (max-width:1000px) {
@@ -75,7 +75,7 @@ body{width: 100%;}
     .info .info_text p{color: #929292;font-size: 15px;font-family: PingFangSC-Medium;margin-top: 50px;}
     .info .info_img{width: 60%;}
     .info .info_img img{width: 100%;draggable:false;}
-    .info .info_img .info_lcon{width:27%;position: absolute;top:5px;left:35%;top:25%;}
+    .info .info_img .info_lcon{width:18%;position: absolute;top:5px;left:19%;top:23%;}
 /*banner图按钮*/
     .banner .button{position: absolute;top:64%;left:42%;/*border: 1px solid red;*/}
     .banner .button button{background-color: #ffffff;border-color:#ffffff;color: #5316df;outline: none;font-size: 12px;width: 90px;height: 31px;border-radius:30px 30px 29px 29px;;}
