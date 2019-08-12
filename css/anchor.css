@@ -9,6 +9,7 @@ body{width: 100%;}
 .info{position:relative;margin-top: 0px;}
 .info .row{margin-top:100px;/*border: 1px solid red;*/height: 360px;}
 .info .row_1{height: 550px;}
+.info .info_img1{width: 70%;}
 .info .row .col-md-6{position:relative;padding:0px;}
 .info .info_text{width: 90%;/*border: 1px solid red;*/}
 .info .col_top{margin-top: -50px;}
@@ -16,7 +17,7 @@ body{width: 100%;}
 .info .info_right{position: absolute;right: 0px;}
 .info .info_text h3{color: #3c3c3c;font-size: 32px;font-family: PingFangSC-Medium;text-align: center;}
 .info .info_text p{color: #929292;font-size: 22px;font-family: PingFangSC-Medium;margin-top: 50px;}
-.info .info_img{/*border: 1px solid red;*/width:80%;}
+.info .info_img{/*border: 1px solid red;*/width:85%;}
 .info .info_img img{width: 100%;draggable:false;}
 .info .info_img .info_lcon{width:27%;position: absolute;top:5px;left:30%;top:23%;}
 .footer{margin-top:90px;}
