@@ -87,7 +87,12 @@ a:link,a:visited{color: #ffffff;text-decoration: none;}
 .panel-footer P{color:#969696;font-size: 13px;}
 .panel-footer .panel_img img{margin-right:25px;draggable:false;}
 
+@media screen and (min-width:990px) and (max-width:1200px) {
+    .panel-footer{background-color:  #f1f1f1;}
+    .panel-footer P{color:#969696;font-size: 13px;}
+    .panel-footer .panel_img img{margin-right:25px;width:11%;raggable:false;}
 
+}
 
 
 

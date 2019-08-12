@@ -1,89 +1,139 @@
-/*�ֲ�ͼ*/
-.bg {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
-.bg-box-1{background: url('../images/index/banner1.png') no-repeat center/cover;}
-.bg-box-2{background: url('../images/index/banner2.png') no-repeat center/cover;}
-.bg-box-3{background: url('../images/index/banner3.png') no-repeat center/cover;}
-.bg-box-4{background: url('../images/index/banner1.png') no-repeat center/cover;}
-#wrap{position: absolute;overflow: hidden;top:0; left:0; right:0; bottom:0;margin:auto;width: 1000px;height: 400px;}
-#wrap > ul{width: 120%;list-style: none;}
-#wrap > ul > li{float: left;width: 100px;height: 400px;cursor: pointer;}
-#wrap > ul > li:nth-child(1){background: url('../images/index/banner1.png') no-repeat center/cover;}
-#wrap > ul > li:nth-child(2){background: url('../images/index/banner2.png') no-repeat center/cover;}
-#wrap > ul > li:nth-child(3){background: url('../images/index/banner3.png') no-repeat center/cover;}
-#wrap > ul > li:nth-child(4){background: url('../images/index/banner1.png') no-repeat center/cover;width: 700px;}
-#wrap > ul > li > .text{width: 100px;height: 100%;background: #000;opacity: .5;}
-#wrap > ul > li > .text p{padding: 20px 40px;font-family: 'Microsoft yahei';color: #fff;}
-.glyphicon{margin-right:4px !important; /*override*/}
-.pagination .glyphicon{margin-right:0 !important; /*override*/}
-.pagination a{color:#555;}
-.panel ul{padding:0;margin:0;list-style:none;}
-.news-item{padding:4px 4px;margin:0;border-bottom:1px dotted #555;}
-/*�ֲ�ͼ��ť��hover*/
-.pc-banner{background-color: rgb(97, 106, 255);width: 100%;float: left;}
-@media screen and (max-width: 668px){.pc-banner{background-size: auto 100%;}}
-.swiper-container{width: 100%;margin: 35px 0;}
-@media screen and (max-width: 668px){.swiper-container{margin: 20px 0 15px;}}
-.swiper-slide{-webkit-transition: transform 1.0s;-moz-transition: transform 1.0s;-ms-transition: transform 1.0s;-o-transition: transform 1.0s;-webkit-transform: scale(0.7);transform: scale(0.7);}
-@media screen and (max-width: 668px){.swiper-slide{-webkit-transform: scale(0.97);transform: scale(0.97);}}
-.swiper-slide-active,.swiper-slide-duplicate-active{-webkit-transform: scale(1);transform: scale(1);}
-@media screen and (max-width: 668px){.swiper-slide-active,.swiper-slide-duplicate-active {-webkit-transform: scale(0.97);transform: scale(0.97);}}
-.none-effect{-webkit-transition: none;-moz-transition: none;-ms-transition: none;-o-transition: none;}
-.swiper-slide a{background: #fff;padding:10px;display: block;border-radius: 14px;}
-@media screen and (min-width: 668px){.swiper-slide a:after{position: absolute;top: 0;left: 0;display: block;box-sizing: border-box;border: 10px solid #fff;content: "";width: 100%;height: 100%;background: url(../images/gift/anbeijing.png) 0 0 repeat;border-radius: 20px;}}
-.swiper-slide-active a:after {background: none;}
-@media screen and (max-width: 668px){.swiper-slide a{padding: 5px;border-radius: 7px;}}
-.swiper-slide img{width: 100%;border-radius: 14px;display: block;}
-@media screen and(max-width: 668px){.swiper-slide img {border-radius: 7px;}}
-.swiper-pagination{position: relative;margin-top: -30px;margin-left: 46%;}
-.swiper-pagination-bullet {background: #00a0e9;margin-left: 4px;margin-right: 4px;width: 17px;height: 17px;opacity: 1;margin-bottom: 2px;}
-.swiper-pagination-bullet-active {width: 15px;height: 15px;background: #FFF;border: 6px solid #00a0e9;margin-bottom: 0;}
-@media screen and (max-width: 668px) {.swiper-pagination{position: relative;margin-bottom: 20px;}.swiper-pagination-bullet{background: #00a0e9;margin-left: 2px;margin-right: 2px;width: 8px;height: 8px;margin-bottom: 2px;}.swiper-pagination-bullet-active {width: 6px;height: 6px;background: #FFF;border: 3px solid #00a0e9;margin-bottom: 0;}}
-.button {width: 1000px;margin: 0 auto;bottom: 43px;position: relative;}
-@media screen and (max-width: 668px){.button {width: 70%;bottom: 22px;}}
-/*.button div:hover {background-color: #2f4798;}*/
-.swiper-button-prev {width: 40px;height: 40px;border-radius: 50%;}
-.swiper-button-next{width: 40px;height: 40px;border-radius: 50%;}
-@media screen and (max-width: 668px) {.button div {width: 28px;height: 28px;}}
+/*banner图*/
+.banner{position: relative;}
+.banner img{width: 100%;draggable:false;}
+.banner .button{position: absolute;top:65%;left:19%;/*border: 1px solid red;*/}
+.banner .button button{background-color: #fd4b11;border-color:#fd4b11;color: #ffffff;outline: none;font-size: 13px;
+                width: 130px;height: 40px;border-radius: 6px;}
 
-/*����*/
-.jieshao .container .row h1{padding: 50px 0 0 0;}
-.jieshao .container .row p{padding: 20px 0 30px 0;}
-.jieshao .container .row .col-md-6{margin-top: 30px;}
-.jieshao .container .row .col-md-6 button{padding: 8px 24px;border: 2px solid #ff76b5;border-radius: 5px;background-color: #faf8fd}
-.jieshao .container .row .col-md-6 button:hover{background-color: #e1bbc4;transition: background-color 0.7s;color: white;}
-
-/*Ӧ�ó���*/
-.yonghutiyan{background-color: #ffe7f8;margin-top: 50px;}
-.yonghutiyan .container .row h1{padding: 50px 0 0 0;}
-.yonghutiyan .container .row p{padding: 20px 0 30px 0;}
-.yonghutiyan .container .row .col-md-6 .media .media-left p{width: 80px;height: 80px;background-color: #ffcef4;border-radius: 50%;}
-.yonghutiyan .container .row .col-md-6 .media .media-body p{margin-top: -10px;}
-.yonghutiyan .container .row .col-md-6 .media .media-left p span{font-size: 50px;margin: 0 0 0 13px;color: #FFFFFF;}
-.yonghutiyan .container .row .col-md-12{margin-bottom: 20px;}
-.yonghutiyan .container .row .col-md-12 button{padding: 8px 24px;border: 2px solid #ff76b5;border-radius: 5px;background-color: #faf8fd}
-.yonghutiyan .container .row .col-md-12 button:hover{background-color: #e1bbc4;transition: background-color 0.7s;color: white;}
+/*直播礼物系统*/
+.info_1{position:relative;margin-top: 0px;}
+.info_1 .row{margin-top:100px;/*border: 1px solid red;*/height: 550px;}
+.info_1 .info_img1{width: 85%;}/*右边图片*/    /*直播礼物系统\座驾*/
+.info_1 .info_img1 img{width: 100%;draggable:false;}
+.info_1 .info_text,.info_2 .info_text{width: 90%;margin-top:16%;/*border: 1px solid red;*/}
+.info_1 .info_right,.info_2 .info_right{position: absolute;right: 0px;}
+.info_1 .info_text h3,.info_2 .info_text h3{color: #3c3c3c;font-size: 32px;font-family: PingFangSC-Medium;text-align: center;}
+.info_1 .info_text p,.info_2 .info_text p{color: #929292;font-size:20px;font-family: PingFangSC-Medium;margin-top: 50px;}
 
 
-/*�ص�*/
-.liwutedian{margin-bottom: 50px;}
-.liwutedian .container .row h1{padding: 50px 0 0 0;}
-.liwutedian .container .row p{padding: 20px 0 30px 0;}
-.liwutedian .container .row .col-md-8 .row .col-md-4 img{width: 80%;}
-.liwutedian .container .row .col-md-8 .row .col-md-4 button{padding: 8px 24px;border: 2px solid #f9ec8d;background-color: #ffffff;border-radius: 5px;}
-.liwutedian .container .row .col-md-8 .row .col-md-4 button:hover{background-color: #ffe093;color: #FFFFFF;transition: background-color 0.5s;}
-.liwutedian .container .row .col-md-4 .more_gift,
-.liwutedian .container .row .col-md-4 .liuyan,
-.liwutedian .container .row .col-md-4 .bangdan
-{padding: 10px 100px;font-size: 35px;text-align: center;margin: 5px 0;background-color: #FFFFFF;border: 2px solid #000000;border-radius: 10px;}
-.liwutedian .container .row .col-md-4 .more_gift:hover,
-.liwutedian .container .row .col-md-4 .liuyan:hover,
-.liwutedian .container .row .col-md-4 .bangdan:hover
-{background-color: #e7e0de;transition: background-color 0.5s;}
+/*二页 人气提升 亲密度提升*/
+.info_2{position:relative;margin-top: 0px;}
+.info_2 .row{/*border: 1px solid red;*/height: 600px;}
+.bg_img{background: url("../images/gift/bg_1.png")/*center 27%;*/;background-size:100%;background-repeat: no-repeat;}
+.info_2 .row_2 .info_box{width:95%;height:350px;margin-top:80px;background-color: #ffffff;border-radius: 35px;border: 1px  #ffffff; }/*白色背景边框*/
+.info_2 .row_2 .info_box .box_img{width:45%;margin: auto;}
+.info_2 .row_2 .info_box img{width:100%;margin-top: 20%;draggable:false;}
+.info_2 .row_2 .info_box h4{margin-top:12%;color: #333333;font-weight:300;font-size: 24px;text-align: center;}
+.info_2 .row_2 .info_box div{width: 90%;/*border: 1px solid red;*/margin: auto;margin-top: 10%;}
+.info_2 .row_2 .info_box p{color: #999999;font-weight: normal;font-size:15px;}
 
-/*��ѯ����*/
-.zixun-bg{background: url("../images/yiduiyi/pkbg.jpg");background-size: cover;background-repeat: no-repeat;}
-.zixun-bg .zixun{background: rgba(11,1,1,0.4);width: 100%;height:200px;}
-.zixun-bg .zixun p{font-size: 20px; color: #FFFFFF;padding: 20px 0 0 0}
-.zixun-bg .zixun button{font-size: 20px;margin-top: 50px;padding: 8px 24px;}
+/*三页 酷炫座驾*/
+.info_2 .row_3{margin-top:100px;height: 550px;}
+.info_2 .info_img1{width: 62%;}
+.info_2 .info_img1 img{width: 100%;draggable:false;draggable:false;}
+
+/*四页 爵位系统 礼物榜*/
+/*.bg_2{background: url("../images/gift/3.png")/!*center 27%;*!/;background-size:30%;background-repeat: no-repeat;}*/
+.info_2 .row_4{/*border: 1px solid red;*/height: 450px;}
+.info_2 .text {width: 80%;/*border: 1px solid #3d5cff;*/background-color:  #e6e6e6;}
+.info_2 .text div{width:75%;margin: auto;margin-top:10%;}
+.info_2 h4{color: #2a2a2a;font-size:31px;font-weight:400;text-align: center;margin-top:18%;}
+.info_2 p{color: #999999;font-size:21px;font-weight:300;}
 
 
+/*咨询我们*/
+.dibu_fuxian{margin-top:0px;}
+.dibu_fuxian .zixun-bg{height:500px;background: url("../images/gift/bg_2.png");background-size: cover;background-repeat: no-repeat;border:1px solid rgba(255, 255, 255, 0);}
+.dibu_fuxian .zixun-bg .zixun{width: 100%;height:200px;}
+.dibu_fuxian .zixun-bg .zixun p{font-size:31px; color:#333333;margin-top:150px;}
+.dibu_fuxian .zixun-bg .zixun button{font-size: 13px;margin-top: 150px;background-color: #fd4b11;border-color: #fd4b11;outline: none;color: #ffffff;width: 130px;height: 40px;border-radius: 6px; }
+
+
+
+@media screen and (min-width:990px) and (max-width:1200px) {
+    /*二页 人气提升 亲密度提升*/
+    .info_2{position:relative;margin-top: 0px;}
+    .info_2 .row{/*border: 1px solid red;*/height: 600px;}
+    .bg_img{background: url("../images/gift/bg_1.png")/*center 27%;*/;background-size:100%;background-repeat: no-repeat;}
+    .info_2 .row_2 .info_box{width:95%;height:350px;margin-top:25px;background-color: #ffffff;border-radius: 35px;border: 1px  #ffffff; }/*白色背景边框*/
+    .info_2 .row_2 .info_box .box_img{width:45%;margin: auto;}
+    .info_2 .row_2 .info_box img{width:100%;margin-top: 20%;draggable:false;}
+    .info_2 .row_2 .info_box h4{margin-top:12%;color: #333333;font-weight:300;font-size: 24px;text-align: center;}
+    .info_2 .row_2 .info_box div{width: 90%;/*border: 1px solid red;*/margin: auto;margin-top: 10%;}
+    .info_2 .row_2 .info_box p{color: #999999;font-weight: normal;font-size:15px;}
+
+}
+@media screen and (min-width: 768px) and (max-width:991px ){
+    /*直播礼物系统*/
+    .info_1{position:relative;margin-top: 0px;}
+    .info_1 .row{margin-top:100px;border: 1px solid red;height:750px;}
+    .info_1 .info_img1{width:50%;}/*右边图片*/    /*直播礼物系统\座驾*/
+    .info_1 .info_img1 img{width: 100%;draggable:false;}
+    .info_1 .info_text,.info_2 .info_text{width:80%;/*border: 1px solid red;*/}
+    .info_1 .info_right,.info_2 .info_right{position: absolute;right: 0px;}
+    .info_1 .info_text h3,.info_2 .info_text h3{color: #3c3c3c;font-size:27px;font-family: PingFangSC-Medium;text-align: center;}
+    .info_1 .info_text p,.info_2 .info_text p{color: #929292;font-size:15px;font-family: PingFangSC-Medium;margin-top: 50px;}
+
+
+    /*二页 人气提升 亲密度提升*/
+    .info_2{position:relative;margin-top:20px;}
+    .info_2 .row_2{/*border: 1px solid red;*/position: relative;height:1500px;background-color: #e6e6e6;}
+    /*.bg_img{background: url("../images/gift/bg_1.png");background-size:100%;background-repeat: no-repeat;}*/
+    .info_2 .row_2 .info_box{width:22%;height:280px;margin-top:80px;background-color: #ffffff;border-radius: 35px;border: 1px  #ffffff; }/*白色背景边框*/
+    .info_2 .row_2 .info_box .box_img{width:45%;margin: auto;}
+    .ib_2 ,.ib_4{}
+    .info_2 .row_2 .info_box img{width:100%;margin-top: 20%;draggable:false;}
+    .info_2 .row_2 .info_box h4{margin-top:12%;color: #333333;font-weight:300;font-size:18px;text-align: center;}
+    .info_2 .row_2 .info_box div{width: 90%;/*border: 1px solid red;*/margin: auto;margin-top: 10%;}
+    .info_2 .row_2 .info_box p{color: #999999;font-weight: normal;font-size:12px;}
+
+    /*三页 酷炫座驾*/
+    .info_2 .row_3{/*border: 1px solid red;*/margin-top:0px;height: 650px;}
+    .info_2 .info_img1{width:39%;}
+    .info_2 .info_img1 img{width: 100%;draggable:false;draggable:false;}
+
+    /*四页 爵位系统 礼物榜*/
+    /*.bg_2{background: url("../images/gift/3.png")/!*center 27%;*!/;background-size:30%;background-repeat: no-repeat;}*/
+    .info_2 .row_4{/*border: 1px solid red;*/height:550px;}
+    .info_2 .text {width:45%;/*border: 1px solid #3d5cff;*/background-color:  #e6e6e6;}
+    .info_2 .text div{width:75%;margin: auto;margin-top:10%;}
+    .info_2 h4{color: #2a2a2a;font-size:26px;font-weight:400;text-align: center;margin-top:18%;}
+    .info_2 p{color: #999999;font-size:14px;font-weight:300;}
+}
+@media only screen and (max-width:767px){
+    /*直播礼物系统*/
+    .info_1{position:relative;margin-top: 0px;}
+    .info_1 .row{margin-top:100px;/*border: 1px solid red;*/height:750px;}
+    .info_1 .info_img1{width:50%;}/*右边图片*/    /*直播礼物系统\座驾*/
+    .info_1 .info_img1 img{width: 100%;draggable:false;}
+    .info_1 .info_text,.info_2 .info_text{width:80%;/*border: 1px solid red;*/}
+    .info_1 .info_right,.info_2 .info_right{position: absolute;right: 0px;}
+    .info_1 .info_text h3,.info_2 .info_text h3{color: #3c3c3c;font-size:27px;font-family: PingFangSC-Medium;text-align: center;}
+    .info_1 .info_text p,.info_2 .info_text p{color: #929292;font-size:15px;font-family: PingFangSC-Medium;margin-top: 50px;}
+
+
+    /*二页 人气提升 亲密度提升*/
+    .info_2{position:relative;margin-top:20px;}
+    .info_2 .row_2{/*border: 1px solid red;*/position: relative;height:1500px;background-color: #e6e6e6;}
+    /*.bg_img{background: url("../images/gift/bg_1.png");background-size:100%;background-repeat: no-repeat;}*/
+    .info_2 .row_2 .info_box{width:37%;height:280px;margin-top:80px;background-color: #ffffff;border-radius: 35px;border: 1px  #ffffff; }/*白色背景边框*/
+    .info_2 .row_2 .info_box .box_img{width:45%;margin: auto;}
+    .ib_2 ,.ib_4{}
+    .info_2 .row_2 .info_box img{width:100%;margin-top: 20%;draggable:false;}
+    .info_2 .row_2 .info_box h4{margin-top:12%;color: #333333;font-weight:300;font-size:18px;text-align: center;}
+    .info_2 .row_2 .info_box div{width: 90%;/*border: 1px solid red;*/margin: auto;margin-top: 10%;}
+    .info_2 .row_2 .info_box p{color: #999999;font-weight: normal;font-size:12px;}
+
+    /*三页 酷炫座驾*/
+    .info_2 .row_3{/*border: 1px solid red;*/margin-top:0px;height: 650px;}
+    .info_2 .info_img1{width:39%;}
+    .info_2 .info_img1 img{width: 100%;draggable:false;draggable:false;}
+
+    /*四页 爵位系统 礼物榜*/
+    /*.bg_2{background: url("../images/gift/3.png")/!*center 27%;*!/;background-size:30%;background-repeat: no-repeat;}*/
+    .info_2 .row_4{/*border: 1px solid red;*/height:550px;}
+    .info_2 .text {width:45%;/*border: 1px solid #3d5cff;*/background-color:  #e6e6e6;}
+    .info_2 .text div{width:75%;margin: auto;margin-top:10%;}
+    .info_2 h4{color: #2a2a2a;font-size:26px;font-weight:400;text-align: center;margin-top:18%;}
+    .info_2 p{color: #999999;font-size:14px;font-weight:300;}
+}
