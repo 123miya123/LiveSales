@@ -69,6 +69,18 @@ a:link,a:visited{color: #ffffff;text-decoration: none;}
     -webkit-animation:test 0.25s ease-in 3;
 }
 
+/*鼠标移上lcon旋转*/
+.box_img img:hover{
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+}
+img{
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out ;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
 /*底部*/
 .footer{margin-top: 50px;/*border: 1px solid red;*/}
 .footer .container .row .footer_d div{height:250px;margin-top: 38px;/*border: 1px solid red;*/}
