@@ -8,8 +8,8 @@
 .navbar-default .navbar-nav>li>a{font-size: 17px;font-family: Arial,Verdana,Sans-serif;color: #ffffff;font-weight: 400;}
 .navbar .container .container-fluid .collapse .nav li a:hover{color: #ffffff;}
 .navbar-brand{margin-left:-140%;}
-.logo img{height:90%;margin-top:-10px;position:absolute;draggable:false;}
-.logo span{padding: 7px 0 0 5px;position: absolute;margin-left:80px;color: #ffffff;font-weight:600;}
+.logo img{height:99%;margin-top:-15px;position:absolute;draggable:false;}
+.logo span{padding: 7px 0 0 5px;position: absolute;margin-left:60px;color: #ffffff;font-weight:600;}
 @media (min-width: 768px){
     .navbar-nav>li>a {
         padding-top: 22px;
@@ -84,8 +84,8 @@ img{
 /*底部*/
 .footer{margin-top: 50px;/*border: 1px solid red;*/}
 .footer .container .row .footer_d div{height:250px;margin-top: 38px;/*border: 1px solid red;*/}
-.footer .container .row .col-md-6 div{width:250px;height: 100px;margin-top:35px;}
-.footer .container .row .col-md-6 div img{width:70%;height: 70%;draggable:false;}
+.footer .container .row .col-md-6 div{width:350px;height: 120px;margin-top:35px;/*border: 1px solid red;*/}
+.footer .container .row .col-md-6 div img{width:100%;draggable:false;}
 .footer .container .row .col-md-6 .text{color:#969696;;font-family: SourceHanSansCN-Normal;font-size:14px;}
 .footer  .container .row .footer_d div h4{color: #333333;font-family: SourceHanSansCN-Normal;font-size:24px;}
 .footer  .container .row .footer_d div p{color: #969696;font-family: SourceHanSansCN-Normal;font-size: 14px;}
@@ -99,6 +99,7 @@ img{
 .panel-footer P{color:#969696;font-size: 13px;}
 .panel-footer .panel_img img{margin-right:25px;draggable:false;}
 
+
 @media screen and (min-width:990px) and (max-width:1200px) {
     .panel-footer{background-color:  #f1f1f1;}
     .panel-footer P{color:#969696;font-size: 13px;}
@@ -106,6 +107,44 @@ img{
 
 }
 
+@media screen and (min-width: 768px) and (max-width:991px ){
+
+    .footer{margin-top: 50px;/*border: 1px solid red;*/}
+    .footer .container .row .footer_d div{height:250px;margin-top: 38px;/*border: 1px solid red;*/}
+    .footer .container .row .col-sm-6 div{width:250px;height: 100px;margin-top:35px;}
+    .footer .container .row .col-sm-6 div img{width:70%;height: 70%;draggable:false;}
+    .footer .container .row .col-sm-6 .text{color:#969696;;font-family: SourceHanSansCN-Normal;font-size:14px;}
+    .footer  .container .row .footer_d div h4{color: #333333;font-family: SourceHanSansCN-Normal;font-size:24px;}
+    .footer  .container .row .footer_d div p{color: #969696;font-family: SourceHanSansCN-Normal;font-size: 14px;}
+    .footer  .container .row .footer_d div p span{color: #969696;font-family: SourceHanSansCN-Normal;font-size:15px;}
+    .footer  .container .row .footer_d div .footer_text{margin-top: 29px;}
+
+    .footer  .container .row .col-sm-2 div p{text-align:left;color: #333333;font-size:20px;}
+    .footer  .container .row .col-sm-2 img{width:90px;height:90px;draggable:false;}
+
+    .panel-footer{background-color:  #f1f1f1;}
+    .panel-footer P{color:#969696;font-size: 10px;}
+    .panel-footer .panel_img img{margin-right:5px;width:17%;draggable:false;}
+}
+
+@media only screen and (max-width:767px){
+    .footer{margin-top: 50px;/*border: 1px solid red;*/}
+    .footer .container .row .footer_d div{height:250px;margin-top: 38px;/*border: 1px solid red;*/}
+    .footer .container .row .col-xs-6 div{width:250px;height: 100px;margin-top:35px;}
+    .footer .container .row .col-xs-6 div img{width:50%;height: 50%;draggable:false;}
+    .footer .container .row .col-xs-6 .text{color:#969696;;font-family: SourceHanSansCN-Normal;font-size:9px;}
+    .footer  .container .row .footer_d div h4{color: #333333;font-family: SourceHanSansCN-Normal;font-size:19px;}
+    .footer  .container .row .footer_d div p{color: #969696;font-family: SourceHanSansCN-Normal;font-size: 9px;}
+    .footer  .container .row .footer_d div p span{color: #969696;font-family: SourceHanSansCN-Normal;font-size:12px;}
+    .footer  .container .row .footer_d div .footer_text{margin-top: 29px;}
+
+    .footer  .container .row .col-xs-2 div p{text-align:left;color: #333333;font-size:16px;}
+    .footer  .container .row .col-xs-2 img{width:50px;height:50px;draggable:false;}
+
+    .panel-footer{background-color:  #f1f1f1;}
+    .panel-footer P{color:#969696;font-size: 9px;}
+    .panel-footer .panel_img img{margin-right:5px;width:17%;draggable:false;}
+}
 
 
 

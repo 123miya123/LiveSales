@@ -1,5 +1,8 @@
+.ht_1{display:block;}
+.ht_2{display:none;}
+.ht_3{display:none;}
+
 /*body距顶及字体设置*/
-/*body{margin-top: 65px;}*/
 h1,h2,h3,h4,h5,p,a,li,span{font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
 
 /*title设置*/
@@ -14,27 +17,6 @@ h1,h2,h3,h4,h5,p,a,li,span{font-family: "Helvetica Neue",Helvetica,Arial,sans-se
 @media (min-width: 768px){.navbar .container .container-fluid .collapse .nav>li>a {padding-top: 22px;padding-bottom: 22px;}}
 /* 导航条设置结束 */
 
-/* 轮播图开始 */
-/*.carousel .carousel-inner .item img{width: 100%;height: 450px;}
-.carousel .carousel-control.right {
-    right: 0;
-    left: auto;
-    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
-    background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
-    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,0)));
-    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
-    background-repeat: repeat-x;
-}
-.carousel .carousel-control.left {
-    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
-    background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
-    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,0)));
-    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
-    background-repeat: repeat-x;
-}*/
-/* 轮播图结束 */
 /*banner图*/
 .banner{position: relative;}
 .banner img{width: 100%;draggable:false;}
@@ -85,3 +67,32 @@ h1,h2,h3,h4,h5,p,a,li,span{font-family: "Helvetica Neue",Helvetica,Arial,sans-se
 
 /* 底部特效opactiy设置 */
 /*.dibu_fuxian{opacity: 0;}*/
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 768px) and (max-width:991px ){
+    .ht_1{display: none;}
+    .ht_2{display:block;}
+    .ht_3{display:none;}
+    /* 直播系统（第三页） */
+    .fun{margin-top:80px;background: url("../images/index/bg03.png");background-size: cover;background-repeat: no-repeat;/*border:1px solid red;*/width: 100%;height: 550px;}
+    .fun .title3 p{text-align: center;color: #ffffff;font-size: 31px;line-height:150px;}
+    .fun .row1 .col-sm-2{/*border: 1px solid red;*/height:130px;text-align: center;}
+    .fun .row1 .col-sm-2 p{color: #ffffff;font-size: 16px;line-height:45px;margin-right:0px;}
+    .fun .row2 .col-sm-2{/*border: 1px solid red;*/ height:130px;text-align:center;}
+    .fun .row2 .col-sm-2 p{color: #ffffff;font-size: 16px;line-height:45px;margin-right:0px;}
+
+}
+
+@media only screen and (max-width:767px) {
+    .ht_1{display: none;}
+    .ht_2{display:none;}
+    .ht_3{display:block;}
+    .fun{margin-top:80px;background: url("../images/index/bg03.png");background-size: cover;background-repeat: no-repeat;/*border:1px solid red;*/width: 100%;height: 550px;}
+    .fun .title3 p{text-align: center;color: #ffffff;font-size:21px;line-height:150px;}
+    .fun .row1 .col-xs-4{/*border: 1px solid red;*/height:80px;text-align: center;}
+    .fun .row1 .col-xs-4 p{color: #ffffff;font-size: 11px;line-height:45px;margin-right:0px;}
+    .fun .row2 .col-xs-4{/*border: 1px solid red;*/ height:80px;text-align:center;}
+    .fun .row2 .col-xs-4 p{color: #ffffff;font-size:12px;line-height:45px;margin-right:0px;}
+    .beat{width: 45%;}
+}
